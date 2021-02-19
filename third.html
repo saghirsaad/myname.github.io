@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+        layout
+    </title>
+    <style>
+ .container {
+
+     width: 100%;
+     height: 500px;
+     border: 1px solid black;
+ }      
+
+ .header{
+
+     width: 100%;
+     height: 50px;
+     background-color: rgb(30, 183, 210);
+     display: flex;
+ }
+ .logo{
+     width: 30%;
+     height: 50px;
+     /* background-color: crimson; */
+ }
+
+ .image{
+     width: 100%;
+     height: 50px;
+ }
+ .blank{
+     width: 50%;
+    height: 50px;
+     /* background-color: darkgoldenrod; */
+ }
+
+ .navbar{
+     width: 30%;
+     height: 50px;
+     /* background-color: darkgreen; */
+ }
+ 
+ ul{
+     list-style-type: none;
+ }
+ li{
+     float: left;
+     margin: 4px;
+     font-weight: bold;
+     font-family: sans-serif;
+     width: 60px;
+     height: 15px;
+     /* background-color: violet; */
+     text-align: center;
+     padding: 5px;
+     color: white;
+ }
+ li:hover{
+     background-color: rgb(16, 85, 212);
+     cursor: pointer;
+     border-radius: 25px;
+ }
+ .Body-container{
+     display: flex;
+     width: 100%;
+     height: 450px;
+     /* background-color: darkolivegreen; */
+     justify-content: space-between;
+ }
+ .col{
+     width: 30%;
+     height: 450px;
+     /* background-color: darkorange; */
+     border: 1px solid black ;
+ }
+ .bike_image{
+     height: 100px;
+     width: 90%;
+ } 
+ .sec_col{
+     width: 30%;
+     height: 450px;
+      border: 1px solid black;
+ }
+ .third_col{
+     width: 30%;
+     height: 450px;
+     border: 1px solid black;
+ }
+ h2{
+     text-align: center;
+     font-family: sans-serif;
+     font-weight: bold;
+
+ }
+ p{
+     text-align: center;
+     font-family: sans-serif;
+ }
+ button{
+     background-color: brown;
+     color: white;
+     text-align: center;
+     width: 90%;
+     height: 50px;
+ }
+ button:hover{
+     background-color: yellow;
+ }
+ /* a{
+     width: 100px;
+     height: 50px;
+     background-color: yellow;
+ } */
+
+    </style>
+</head>
+
+<body>
+
+
+     
+      
+    <div class="container">       
+         <header class="header">
+        <div class="logo">   
+            <img src="mini-logo.png" alt="ironman" class="image">
+        </div>
+        <div class="blank"></div>
+
+          <div class="navbar">
+
+          <ul>
+
+               <li>Home </li>
+                <li>About</li>
+                <li>Tool</li>
+                <li>Show</li>   
+          </ul>
+
+          </div>
+        </header>
+
+
+
+
+    <div class="Body-container">
+        <div class="col"> 
+            <center>
+                <h2> KAWASAKI <br> H2r</h2>
+            <img class="bike_image" src="https://lh3.googleusercontent.com/proxy/lNM0ijtUzTY7ehDSBRROq_F0cFbm5v8QvFuQv7tquYmUMp2M4HpuSsjF0ZJRaEbJ8HiFoIoN7UnUM2NIwbsBZdIuVcbsa5LK12_cFuypU8ZrrSk9TmoL9g8tpPFygePgKIY9Fw0" alt="">
+         <p>  Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, sapiente. Sit, blanditiis ea explicabo vero qui et, debitis velit, iure soluta molestias labore ex harum corporis. Adipisci possimus reiciendis soluta?</p>
+         <button>
+             download file
+         </button> 
+         </center>      
+        </div>
+
+        <!-- <div> -->
+          <div class="sec_col">
+              <center>
+              <h2>my bike</h2>
+              <img class="bike_image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPBoJ-u5is_IuOgE2wj18XdIB94tsYhy6V-Q&usqp=CAU" alt="">
+               <p>
+                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit recusandae saepe, quae porro accusantium nulla fuga a impedit in commodi laborum dolores rerum delectus iure accusamus veritatis eius hic obcaecati?
+               </p>
+               <br>
+               <!-- <br> -->
+               <button> download</button>
+            </center>
+          </div>
+                
+        <div class="third_col">
+            <center> 
+                <h2> my youtube</h2>
+         <img  class="bike_image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS64SkmgvM7GlJsYDKqju_z8DWi7UdX3Ns3qg&usqp=CAU" alt="">
+           <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam voluptate nemo aut obcaecati temporibus amet, quae beatae? Minus minima cum voluptates velit iure totam blanditiis qui aliquid consectetur. Voluptatum, exercitationem.</p> 
+           <br>
+            <button> click me</button>     
+        </center>
+        </div>
+
+        <!-- </div> -->
+
+
+
+
+
+
+
+
+
+    </div>
+
+
+
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
