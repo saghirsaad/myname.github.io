@@ -1,0 +1,24 @@
+.customer{
+    width: 100%;
+    
+    border-collapse: collapses;
+}
+th,td{
+    border: 1px solid black;
+    padding: 10px;
+    font-family: sans-serif;
+}
+tr:nth-child(odd){
+    background-color:rgba(128, 128, 128, 0.199);
+    /* height: 50px; */
+}
+th{
+    color: white;
+    background-color: black;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    /* text-align: left;     */
+}
+tr:hover{
+    background-color: gray;
+}
