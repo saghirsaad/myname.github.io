@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h1>MY first javascript</h1>
+<p id="demo"></p>
+<button onclick="document.getElementById('demo').innerHTML = Date() ">click here to show date</button>
+
+<h1>My Second javascript</h1>
+<p id="like"></p>
+
+<h2>My Third javascript</h2>
+<p id="look">MY THIRD JAVASCRIPT</p>
+
+<button onclick="document.getElementById('look').innerHTML='hello javaworld'">click me to change </button>
+<button ondblclick="document.getElementById('look').innerHTML='look'">click me to normal</button>
+
+<h2>my first gif</h2>
+<p>let start making gif</p>
+<img id="MyImage" src="bulboff.gif.png" alt="" style="width: 200px;">
+<button onclick="document.getElementById('MyImage').src= 'bulbon.gif.png'">turn on</button>
+<button onclick="document.getElementById('MyImage').src= 'bulboff.gif.png'">turn off</button>
+
+</body>
+<script>
+    var x = 5;
+    y = 6;
+    z = x + y
+    document.getElementById('like').innerHTML= "that is value of z"+ z;
+</script>
+</html> 
